@@ -18,22 +18,22 @@
                   />
                 </div>
                 <div class="name">
-                  <h3 class="title">Carla Hortensia</h3>
-                  <h6>Designer</h6>
+                  <h3 class="title">Carlos Nascimento</h3>
+                  <h6>Engenheiro de software e front-end</h6>
                   <md-button
                     href="javascript:void(0)"
-                    class="md-just-icon md-simple md-dribbble"
-                    ><i class="fab fa-dribbble"></i
+                    class="md-just-icon md-simple md-linkedin"
+                    ><i class="fab fa-linkedin"></i
                   ></md-button>
                   <md-button
                     href="javascript:void(0)"
-                    class="md-just-icon md-simple md-twitter"
-                    ><i class="fab fa-twitter"></i
+                    class="md-just-icon md-simple md-github"
+                    ><i class="fab fa-github"></i
                   ></md-button>
                   <md-button
                     href="javascript:void(0)"
-                    class="md-just-icon md-simple md-pinterest"
-                    ><i class="fab fa-pinterest"></i
+                    class="md-just-icon md-simple md-facebook"
+                    ><i class="fab fa-facebook"></i
                   ></md-button>
                 </div>
               </div>

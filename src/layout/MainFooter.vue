@@ -8,13 +8,13 @@
       <nav>
         <ul>
           <li>
-            <a href="https://www.creative-tim.com">
-              Creative Tim
+            <a href="https://www.margarethmaroto.com.br">
+              Margareth Maroto
             </a>
           </li>
           <li>
             <a href="https:///presentation.creative-tim.com">
-              About Us
+              Sobre nós
             </a>
           </li>
           <li>
@@ -24,15 +24,14 @@
           </li>
           <li>
             <a href="https://www.creative-tim.com/license">
-              Licenses
+              Licenças
             </a>
           </li>
         </ul>
       </nav>
       <div class="copyright">
-        &copy; {{ year }}, made with <md-icon>favorite</md-icon> by
-        <a href="https://www.creative-tim.com/" target="_blank">Creative Tim</a>
-        for a better web.
+        &copy; {{ year }}, feito pela equipe
+        <a href="https://www.margarethmaroto.com.br" target="_blank">Margareth Maroto</a>
       </div>
     </div>
   </footer>
