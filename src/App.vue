@@ -1,5 +1,5 @@
 <template>
-  <div id="material-kit">
+  <div id="Margareth Maroto Paisagismo">
     <div :class="{ 'nav-open': NavbarStore.showNavbar }">
       <router-view name="header" />
       <div>

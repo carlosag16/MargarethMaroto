@@ -6,12 +6,12 @@
           <div
             class="md-layout-item md-size-50 md-small-size-70 md-xsmall-size-100"
           >
-            <h1 class="title">Faça seu cadastro/pré-cadastro.</h1>
-            <h4>
+            <!-- <h1 class="title">Faça seu cadastro/pré-cadastro.</h1> -->
+            <!-- <h4>
               TextoTextoTextoTextoTextoTextoTextoTextoTextoTexto
               TextoTextoTextoTextoTextoTextoTextoTextoTextoTexto
               TextoTextoTextoTextoTextoTextoTextoTextoTextoTexto TextoTextoTexto
-            </h4>
+            </h4> -->
             <br />
           </div>
         </div>
@@ -286,7 +286,7 @@ export default {
   props: {
     header: {
       type: String,
-      default: require("@/assets/img/bg7.jpg")
+      default: require("@/assets/img/capa.png")
     },
     teamImg1: {
       type: String,
