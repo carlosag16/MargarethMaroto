@@ -12,7 +12,7 @@
               <div class="profile">
                 <div class="avatar">
                   <img
-                    :src="img"
+                    :src="img1"
                     alt="Circle Image"
                     class="img-raised rounded-circle img-fluid"
                   />
@@ -37,15 +37,45 @@
                   ></md-button>
                 </div>
               </div>
+              <div class="description text-center">
+                <p>
+                  An artist of considerable range, Chet Faker — the name taken
+                  by Melbourne-raised, Brooklyn-based Nick Murphy — writes,
+                  performs and records all of his own music, giving it a warm,
+                  intimate feel with a solid groove structure.
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="description text-center">
-            <p>
-              An artist of considerable range, Chet Faker — the name taken by
-              Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs
-              and records all of his own music, giving it a warm, intimate feel
-              with a solid groove structure.
-            </p>
+            <div class="md-layout-item md-size-50 mx-auto">
+              <div class="profile">
+                <div class="avatar">
+                  <img
+                    :src="img2"
+                    alt="Circle Image"
+                    class="img-raised rounded-circle img-fluid"
+                  />
+                </div>
+                <div class="name">
+                  <h3 class="title">Samantha Silva</h3>
+                  <h6>Desenvolvedora Full-stack</h6>
+                  <md-button
+                    href="javascript:void(0)"
+                    class="md-just-icon md-simple md-linkedin"
+                    ><i class="fab fa-linkedin"></i
+                  ></md-button>
+                  <md-button
+                    href="javascript:void(0)"
+                    class="md-just-icon md-simple md-github"
+                    ><i class="fab fa-github"></i
+                  ></md-button>
+                  <md-button
+                    href="javascript:void(0)"
+                    class="md-just-icon md-simple md-facebook"
+                    ><i class="fab fa-facebook"></i
+                  ></md-button>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="profile-tabs">
             <tabs
@@ -138,7 +168,11 @@ export default {
       type: String,
       default: require("@/assets/img/city-profile.jpg")
     },
-    img: {
+    img1: {
+      type: String,
+      default: require("@/assets/img/faces/carlos.jpeg")
+    },
+    img2: {
       type: String,
       default: require("@/assets/img/faces/christian.jpg")
     }

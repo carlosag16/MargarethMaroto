@@ -31,7 +31,7 @@
       </nav>
       <div class="copyright">
         &copy; {{ year }}, feito pela equipe
-        <a href="https://www.margarethmaroto.com.br" target="_blank">Margareth Maroto</a>
+        <a href="#/Profile" target="_blank">Margareth Maroto</a>
       </div>
     </div>
   </footer>

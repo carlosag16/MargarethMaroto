@@ -9,7 +9,7 @@
     <div class="md-toolbar-row md-collapse-lateral">
       <div class="md-toolbar-section-start">
         <a href="https://www.margarethmaroto.com.br">
-          <h3 class="md-title" href="google.com">Margareth Maroto</h3>
+          <h3 class="md-title">Margareth Maroto</h3>
         </a>
       </div>
       <div class="md-toolbar-section-end">
@@ -42,7 +42,7 @@
                         data-toggle="dropdown"
                       >
                         <i class="material-icons">apps</i>
-                        <p>Components</p>
+                        <p>Produtos</p>
                       </md-button>
                       <ul class="dropdown-menu dropdown-with-icons">
                         <li>
@@ -130,7 +130,7 @@
                 <i class="fab fa-twitter"></i>
                 <p class="hidden-lg">Twitter</p>
                 <md-tooltip md-direction="bottom"
-                  >Follow us on Twitter</md-tooltip
+                  >Nos siga no Twitter</md-tooltip
                 >
               </md-list-item>
               <md-list-item
@@ -140,17 +140,17 @@
                 <i class="fab fa-facebook-square"></i>
                 <p class="hidden-lg">Facebook</p>
                 <md-tooltip md-direction="bottom"
-                  >Like us on Facebook</md-tooltip
+                  >Acesse nossa página no Facebook</md-tooltip
                 >
               </md-list-item>
               <md-list-item
-                href="https://www.instagram.com/CreativeTimOfficial"
+                href="https://www.instagram.com/margarethmaroto/"
                 target="_blank"
               >
                 <i class="fab fa-instagram"></i>
                 <p class="hidden-lg">Instagram</p>
                 <md-tooltip md-direction="bottom"
-                  >Follow us on Instagram</md-tooltip
+                  >nos siga no Instagram</md-tooltip
                 >
               </md-list-item>
             </md-list>
