@@ -46,9 +46,11 @@
                       </md-button>
                       <ul class="dropdown-menu dropdown-with-icons">
                         <li>
-                          <a href="#/">
+                          <a
+                            href="https://www.margarethmaroto.com.br/portfolio-2/"
+                          >
                             <i class="material-icons">layers</i>
-                            <p>All Components</p>
+                            <p>Portfólio</p>
                           </a>
                         </li>
                         <li>
@@ -56,7 +58,7 @@
                             href="https://demos.creative-tim.com/vue-material-kit/documentation/"
                           >
                             <i class="material-icons">content_paste</i>
-                            <p>Documentation</p>
+                            <p>Documentação</p>
                           </a>
                         </li>
                       </ul>
@@ -123,7 +125,7 @@
                 </a>
               </li>
 
-              <md-list-item
+              <!-- <md-list-item
                 href="https://twitter.com/CreativeTim"
                 target="_blank"
               >
@@ -132,15 +134,15 @@
                 <md-tooltip md-direction="bottom"
                   >Nos siga no Twitter</md-tooltip
                 >
-              </md-list-item>
+              </md-list-item> -->
               <md-list-item
-                href="https://www.facebook.com/CreativeTim"
+                href="https://www.facebook.com/margarethmarotopaisagismo"
                 target="_blank"
               >
                 <i class="fab fa-facebook-square"></i>
                 <p class="hidden-lg">Facebook</p>
                 <md-tooltip md-direction="bottom"
-                  >Acesse nossa página no Facebook</md-tooltip
+                  >Acesse nossa página</md-tooltip
                 >
               </md-list-item>
               <md-list-item
@@ -150,7 +152,7 @@
                 <i class="fab fa-instagram"></i>
                 <p class="hidden-lg">Instagram</p>
                 <md-tooltip md-direction="bottom"
-                  >nos siga no Instagram</md-tooltip
+                  >Nos siga no Instagram</md-tooltip
                 >
               </md-list-item>
             </md-list>
