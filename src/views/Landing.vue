@@ -32,6 +32,10 @@
 
               <!-- inicio do formulário -->
               <form class="contact-form" @submit="checkForm" @submit.prevent="sendEmail">
+                <!-- <p class="alert" v-if="successo.length">
+                  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+                  <strong>Alerta!</strong> Seu orçamento foi enviado com sucesso!
+                </p> -->
                 <p v-if="errors.length">
                   <b>Por favor, corrija o(s) seguinte(s) erro(s):</b>
                   <ul>
@@ -207,6 +211,7 @@
 
 <script>
 import emailjs from 'emailjs-com';
+
 export default {
   bodyClass: "landing-page",
   props: {
@@ -238,7 +243,8 @@ export default {
       cidade:'',
       compl:'',
       fone: '',
-      servico: []
+      servico: [],
+      sucesso: 'false'
     };
   },
   computed: {
@@ -301,6 +307,8 @@ export default {
       emailjs.sendForm('service_mtcmigw', 'template_byg01t2', e.target, 'user_36dq2VofQoBRwAvAnGVKJ')
         .then((result) => {
             console.log('SUCCESS!', result.status, result.text);
+            alert('Seu orçamento foi enviado com sucesso!')
+            sucesso=true
         }, (error) => {
             console.log('FAILED...', error);
       });
@@ -321,6 +329,26 @@ export default {
 }
 .md-has-textarea + .md-layout {
   margin-top: 15px;
+}
+.alert {
+  padding: 20px;
+  background-color: #008000;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
 }
 
 </style>
