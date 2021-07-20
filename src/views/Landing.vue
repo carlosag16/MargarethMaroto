@@ -31,7 +31,7 @@
               </h4>
 
               <!-- inicio do formulário -->
-              <form class="contact-form" @submit="checkForm" @submit.prevent="sendEmail">
+              <form class="contact-form" @submit="checkForm" @submit.prevent="sendEmail" type="reset">
                 <!-- <p class="alert" v-if="successo.length">
                   <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
                   <strong>Alerta!</strong> Seu orçamento foi enviado com sucesso!
@@ -194,6 +194,7 @@
                     <md-button class="md-success" type="submit" v-on:click="submit" value="Send"
                       >Enviar cadastro</md-button
                     >
+                    <input type="reset" value="Limpar">
                   </div>
                 </div>
                 <!-- <span>
@@ -306,9 +307,9 @@ export default {
     sendEmail: (e) => {
       emailjs.sendForm('service_mtcmigw', 'template_byg01t2', e.target, 'user_36dq2VofQoBRwAvAnGVKJ')
         .then((result) => {
-            console.log('SUCCESS!', result.status, result.text);
+            console.log('SUCCESSO!', result.status, result.text);
             alert('Seu orçamento foi enviado com sucesso!')
-            sucesso=true
+            $("input").name("")
         }, (error) => {
             console.log('FAILED...', error);
       });

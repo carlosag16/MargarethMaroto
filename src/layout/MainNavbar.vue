@@ -94,13 +94,17 @@
                     <drop-down direction="down">
                       <md-button
                         slot="title"
-                        class="md-button md-button-link md-white md-simple dropdown-toggle"
+                        class="md-button md-button-link md-white md-simple "
                         data-toggle="dropdown"
                       >
-                        <i class="material-icons">view_carousel</i>
-                        <p>Examples</p>
+                        <a
+                          href="https://www.margarethmaroto.com.br/portfolio-2/"
+                        >
+                          <i class="material-icons">view_carousel</i>
+                          <p>Portfólio</p>
+                        </a>
                       </md-button>
-                      <ul class="dropdown-menu dropdown-with-icons">
+                      <!-- <ul class="dropdown-menu dropdown-with-icons">
                         <li>
                           <a href="#/landing">
                             <i class="material-icons">view_day</i>
@@ -119,7 +123,7 @@
                             <p>Profile Page</p>
                           </a>
                         </li>
-                      </ul>
+                      </ul> -->
                     </drop-down>
                   </div>
                 </a>
