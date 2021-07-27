@@ -38,13 +38,15 @@
                     <drop-down direction="down">
                       <md-button
                         slot="title"
-                        class="md-button md-button-link md-white md-simple dropdown-toggle"
+                        class="md-button md-button-link md-white md-simple"
                         data-toggle="dropdown"
                       >
-                        <i class="material-icons">apps</i>
-                        <p>Produtos</p>
+                        <a href="">
+                          <i class="material-icons">apps</i>
+                          <p>Orçamento</p>
+                        </a>
                       </md-button>
-                      <ul class="dropdown-menu dropdown-with-icons">
+                      <!-- <ul class="dropdown-menu dropdown-with-icons">
                         <li>
                           <a
                             href="https://www.margarethmaroto.com.br/portfolio-2/"
@@ -61,7 +63,7 @@
                             <p>Documentação</p>
                           </a>
                         </li>
-                      </ul>
+                      </ul> -->
                     </drop-down>
                   </div>
                 </a>
@@ -155,6 +157,16 @@
               >
                 <i class="fab fa-instagram"></i>
                 <p class="hidden-lg">Instagram</p>
+                <md-tooltip md-direction="bottom"
+                  >Nos siga no Instagram</md-tooltip
+                >
+              </md-list-item>
+              <md-list-item
+                href="https://api.whatsapp.com/send?phone=5591984254200"
+                target="_blank"
+              >
+                <i class="fab fa-whatsapp"></i>
+                <p class="hidden-lg">whatsapp</p>
                 <md-tooltip md-direction="bottom"
                   >Nos siga no Instagram</md-tooltip
                 >

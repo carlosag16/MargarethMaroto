@@ -191,10 +191,10 @@
                 <div class="md-layout">
                   <div class="md-layout-item md-size-33 mx-auto text-center">
                     <!-- <md-input type="submit" value="enviar"></md-input> -->
-                    <md-button class="md-success" type="submit" v-on:click="submit" value="Send"
+                    <md-button class="md-success" type="submit, reset" v-on:click="submit" value="Send"
                       >Enviar cadastro</md-button
                     >
-                    <input type="reset" value="Limpar">
+                    <!-- <input type="reset" value="Limpar"> -->
                   </div>
                 </div>
                 <!-- <span>
@@ -308,6 +308,7 @@ export default {
       emailjs.sendForm('service_mtcmigw', 'template_byg01t2', e.target, 'user_36dq2VofQoBRwAvAnGVKJ')
         .then((result) => {
             console.log('SUCCESSO!', result.status, result.text);
+            
             alert('Seu orçamento foi enviado com sucesso!')
             $("input").name("")
         }, (error) => {
