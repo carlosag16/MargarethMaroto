@@ -25,7 +25,7 @@
         <div class="container">
           <div class="md-layout">
             <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto">
-              <h1 class="text-center title">Fale conosco</h1>
+              <h1 class="text-center title" style="font-family: Cabin">Fale conosco</h1>
               <h4 class="text-center description">
                 
               </h4>
@@ -191,7 +191,7 @@
                 <div class="md-layout">
                   <div class="md-layout-item md-size-33 mx-auto text-center">
                     <!-- <md-input type="submit" value="enviar"></md-input> -->
-                    <md-button class="md-success" type="submit, reset" v-on:click="submit" value="Send"
+                    <md-button class="md-success" type="submit" v-on:click="submit" value="Send"
                       >Enviar cadastro</md-button
                     >
                     <!-- <input type="reset" value="Limpar"> -->

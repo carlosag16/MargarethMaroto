@@ -9,7 +9,7 @@
     <div class="md-toolbar-row md-collapse-lateral">
       <div class="md-toolbar-section-start">
         <a href="https://www.margarethmaroto.com.br">
-          <h3 class="md-title">Margareth Maroto</h3>
+          <h3 class="md-title" style="font-family: Cabin">Margareth Maroto</h3>
         </a>
       </div>
       <div class="md-toolbar-section-end">
@@ -43,27 +43,9 @@
                       >
                         <a href="">
                           <i class="material-icons">apps</i>
-                          <p>Orçamento</p>
+                          <p style="font-family: Playfair">Orçamento</p>
                         </a>
                       </md-button>
-                      <!-- <ul class="dropdown-menu dropdown-with-icons">
-                        <li>
-                          <a
-                            href="https://www.margarethmaroto.com.br/portfolio-2/"
-                          >
-                            <i class="material-icons">layers</i>
-                            <p>Portfólio</p>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="https://demos.creative-tim.com/vue-material-kit/documentation/"
-                          >
-                            <i class="material-icons">content_paste</i>
-                            <p>Documentação</p>
-                          </a>
-                        </li>
-                      </ul> -->
                     </drop-down>
                   </div>
                 </a>
@@ -103,7 +85,7 @@
                           href="https://www.margarethmaroto.com.br/portfolio-2/"
                         >
                           <i class="material-icons">view_carousel</i>
-                          <p>Portfólio</p>
+                          <p style="font-family: Playfair">Portfólio</p>
                         </a>
                       </md-button>
                       <!-- <ul class="dropdown-menu dropdown-with-icons">
@@ -130,17 +112,6 @@
                   </div>
                 </a>
               </li>
-
-              <!-- <md-list-item
-                href="https://twitter.com/CreativeTim"
-                target="_blank"
-              >
-                <i class="fab fa-twitter"></i>
-                <p class="hidden-lg">Twitter</p>
-                <md-tooltip md-direction="bottom"
-                  >Nos siga no Twitter</md-tooltip
-                >
-              </md-list-item> -->
               <md-list-item
                 href="https://www.facebook.com/margarethmarotopaisagismo"
                 target="_blank"
@@ -167,9 +138,7 @@
               >
                 <i class="fab fa-whatsapp"></i>
                 <p class="hidden-lg">whatsapp</p>
-                <md-tooltip md-direction="bottom"
-                  >Nos siga no Instagram</md-tooltip
-                >
+                <md-tooltip md-direction="bottom">Fale com a gente</md-tooltip>
               </md-list-item>
             </md-list>
           </div>
