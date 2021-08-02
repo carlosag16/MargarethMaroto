@@ -38,7 +38,7 @@ export default new Router({
       }
     },
     {
-      path: "/profile",
+      path: "/desenvolvedores",
       name: "profile",
       components: { default: Profile, header: MainNavbar, footer: MainFooter },
       props: {

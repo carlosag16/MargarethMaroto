@@ -21,28 +21,29 @@
                   <h3 class="title">Carlos Nascimento</h3>
                   <h6>Engenheiro de software e front-end</h6>
                   <md-button
-                    href="javascript:void(0)"
+                    href="https://www.linkedin.com/in/carlos-nascimento-7a9a681a3/"
                     class="md-just-icon md-simple md-linkedin"
                     ><i class="fab fa-linkedin"></i
                   ></md-button>
                   <md-button
-                    href="javascript:void(0)"
+                    href="https://github.com/carlosag16"
                     class="md-just-icon md-simple md-github"
                     ><i class="fab fa-github"></i
                   ></md-button>
-                  <md-button
+                  <!-- <md-button
                     href="javascript:void(0)"
                     class="md-just-icon md-simple md-facebook"
                     ><i class="fab fa-facebook"></i
-                  ></md-button>
+                  ></md-button> -->
                 </div>
               </div>
               <div class="description text-center">
                 <p>
-                  An artist of considerable range, Chet Faker — the name taken
-                  by Melbourne-raised, Brooklyn-based Nick Murphy — writes,
-                  performs and records all of his own music, giving it a warm,
-                  intimate feel with a solid groove structure.
+                  Desenolvedor web e formando em engenharia da computação, busco
+                  me atualizar nas principais tecnologia do mercado. Possuo
+                  bastante experiência no desevolvimento front-end de diversos
+                  site, tal como o site
+                  <a href="http://bc.ufpa.br/">da Biblioteca Central da UFPA</a>
                 </p>
               </div>
             </div>
@@ -59,25 +60,25 @@
                   <h3 class="title">Samantha Silva</h3>
                   <h6>Desenvolvedora Full-stack</h6>
                   <md-button
-                    href="javascript:void(0)"
+                    href="https://www.linkedin.com/in/samantha-silva-860a82109/"
                     class="md-just-icon md-simple md-linkedin"
                     ><i class="fab fa-linkedin"></i
                   ></md-button>
                   <md-button
-                    href="javascript:void(0)"
+                    href="https://github.com/CylonSam "
                     class="md-just-icon md-simple md-github"
                     ><i class="fab fa-github"></i
                   ></md-button>
-                  <md-button
+                  <!-- <md-button
                     href="javascript:void(0)"
                     class="md-just-icon md-simple md-facebook"
                     ><i class="fab fa-facebook"></i
-                  ></md-button>
+                  ></md-button> -->
                 </div>
               </div>
             </div>
           </div>
-          <div class="profile-tabs">
+          <!-- <div class="profile-tabs">
             <tabs
               :tab-name="['Studio', 'Work', 'Favorite']"
               :tab-icon="['camera', 'palette', 'favorite']"
@@ -85,7 +86,7 @@
               nav-pills-icons
               color-button="success"
             >
-              <!-- here you can add your content for tab-content -->
+              here you can add your content for tab-content 
               <template slot="tab-pane-1">
                 <div class="md-layout">
                   <div class="md-layout-item md-size-25 ml-auto">
@@ -125,7 +126,7 @@
                 </div>
               </template>
             </tabs>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -135,9 +136,7 @@
 <script>
 import { Tabs } from "@/components";
 export default {
-  components: {
-    Tabs
-  },
+  components: {},
   bodyClass: "profile-page",
   data() {
     return {
@@ -174,7 +173,7 @@ export default {
     },
     img2: {
       type: String,
-      default: require("@/assets/img/faces/christian.jpg")
+      default: require("@/assets/img/faces/samantha.jpeg")
     }
   },
   computed: {

@@ -13,11 +13,11 @@
             </a>
           </li>
           <li>
-            <a href="https:///presentation.creative-tim.com">
+            <a href="https://www.margarethmaroto.com.br/sobre/">
               Sobre nós
             </a>
           </li>
-          <li>
+          <!-- <li>
             <a href="https:///blog.creative-tim.com">
               Blog
             </a>
@@ -26,7 +26,7 @@
             <a href="https://www.creative-tim.com/license">
               Licenças
             </a>
-          </li>
+          </li> -->
         </ul>
       </nav>
       <div class="copyright">

@@ -81,9 +81,7 @@
                         class="md-button md-button-link md-white md-simple "
                         data-toggle="dropdown"
                       >
-                        <a
-                          href="https://www.margarethmaroto.com.br/portfolio-2/"
-                        >
+                        <a href="https://www.margarethmaroto.com.br/portfolio">
                           <i class="material-icons">view_carousel</i>
                           <p style="font-family: Playfair">Portfólio</p>
                         </a>
