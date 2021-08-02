@@ -76,6 +76,12 @@
                   ></md-button> -->
                 </div>
               </div>
+              <div class="description text-center">
+                <p>
+                  Entusiasta de Python, Node.js e hot dogs. Atualmente
+                  aprendendo Vue.js e cursando Engenharia da Computação na UFPA.
+                </p>
+              </div>
             </div>
           </div>
           <!-- <div class="profile-tabs">
