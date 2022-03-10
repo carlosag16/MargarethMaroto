@@ -8,11 +8,16 @@
   >
     <div class="md-toolbar-row md-collapse-lateral">
       <div class="md-toolbar-section-start">
-        <a href="https://www.margarethmaroto.com.br">
-          <h3 class="md-title" style="font-family: Cabin">Margareth Maroto</h3>
+        <a href="https://margarethmaroto.com.br">
+          <img
+            :src="oi ? imagem : imagem2"
+            height="190"
+            width="190"
+            alt="Margareth Maroto"
+          />
         </a>
       </div>
-      <div class="md-toolbar-section-end">
+      <div class="  md-toolbar-section-end">
         <md-button
           class="md-just-icon md-simple md-toolbar-toggle"
           :class="{ toggled: toggledClass }"
@@ -43,7 +48,7 @@
                       >
                         <a href="">
                           <i class="material-icons">apps</i>
-                          <p style="font-family: Playfair">Orçamento</p>
+                          <p style="font-family: Cabin">Orçamento</p>
                         </a>
                       </md-button>
                     </drop-down>
@@ -83,7 +88,7 @@
                       >
                         <a href="https://www.margarethmaroto.com.br/portfolio">
                           <i class="material-icons">view_carousel</i>
-                          <p style="font-family: Playfair">Portfólio</p>
+                          <p style="font-family: Cabin">Portfólio</p>
                         </a>
                       </md-button>
                       <!-- <ul class="dropdown-menu dropdown-with-icons">
@@ -188,9 +193,14 @@ export default {
   },
   data() {
     return {
+      imagem:
+        "http://www.margarethmaroto.com.br/wp-content/uploads/2022/02/mrm01_logotipo-pb-18.png",
+      imagem2: "http://www.margarethmaroto.com.br/wp-content/uploads/2022/02/mrm01_logotipo-pb-17.png",
       extraNavClasses: "",
-      toggledClass: false
+      toggledClass: true,
+      oi: true
     };
+
   },
   computed: {
     showDownload() {
@@ -227,10 +237,12 @@ export default {
       if (this.colorOnScroll > 0 && scrollValue > this.colorOnScroll) {
         this.extraNavClasses = `md-${this.type}`;
         navbarColor.classList.remove("md-transparent");
+        this.oi = false
       } else {
         if (this.extraNavClasses) {
           this.extraNavClasses = "";
           navbarColor.classList.add("md-transparent");
+          this.oi = true;
         }
       }
     },
@@ -241,6 +253,7 @@ export default {
       let element_id = document.getElementById("downloadSection");
       if (element_id) {
         element_id.scrollIntoView({ block: "end", behavior: "smooth" });
+        oi = false;
       }
     }
   },

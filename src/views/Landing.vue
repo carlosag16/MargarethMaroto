@@ -24,7 +24,7 @@
       <div class="section section-contacts">
         <div class="container">
           <div class="md-layout">
-            <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto">
+            <div class="md-layout-item md-size-100 md-xsmall-size-100 mx-auto">
               <h1 class="text-center title" style="font-family: Cabin">Fale conosco</h1>
               <h4 class="text-center description">
                 
